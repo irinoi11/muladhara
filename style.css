@@ -1,0 +1,145 @@
+body {
+    font-family: Libre Franklin, sans-serif;
+}
+ 
+.meniu {
+    background-image: linear-gradient(to right, rgba(236, 154, 154, 0), rgba(197, 10, 63, 0.666));
+}    
+
+.meniu .navbar-brand {
+    display:flex;
+    align-items: center;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+.meniu .nav-link {
+    color:rgb(218, 14, 116);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    align-items: center;
+    background-color: pink;
+}
+ 
+.meniu .navbar-brand img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.meniu .navbar-brand img:hover{
+    transform: scale(1.1); ;
+}
+
+.meniu .nav-link:hover {
+    background-color: rgba(255, 100, 221, 0.377);
+}
+
+.carousel-item img {
+    object-fit: cover;
+}
+
+.carouse-inner .active img {
+   object-fit: fill;
+}
+
+.carousel-caption {
+    margin-bottom: 17%;
+    background-color: rgba(255, 92, 241, 0.1);
+    font-size: 1em;
+}
+
+h2 {
+    font-size:2em
+}
+
+h3 {
+    font-family: 'Lobster';
+    text-align: center;
+}
+.h3-normal {
+    font-family: Libre Franklin, sans-serif;
+    font-size: 1.2em;
+}
+.h2-header {
+    text-transform: uppercase;
+    font-size:1.5em;
+}
+
+.carousel-caption h2 {
+    font-family: 'Literata', serif;;
+}
+
+.spatiu {
+    padding: 70px 0px;
+}
+
+.col-md-6 img {
+    margin-left: 5px;
+}
+
+.col-md-6 h2 {
+  font-family: 'Lobster', cursive;
+  font-size: 3em;
+  text-align: center;
+}
+
+.h2-sectiuni {
+    font-family: 'Lobster', cursive;
+    font-size: 2.5em;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(236, 154, 154, 0), rgba(197, 10, 63, 0.253));
+}
+
+.rounded-circle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+}
+
+.col-lg-4 {
+    background-color: rgba(250, 215, 234, 0.118);
+}
+
+.col1 {
+    background-image: url(imagini/hover1.jpg);
+    background-repeat:none;
+    background-size:cover;
+}
+
+.col2 {
+    background-image: url(imagini/hover2.jpg);
+    background-repeat:none;
+    background-size:cover;
+}
+
+.col3 {
+    background-image: url(imagini/hover3.jpg);
+    background-repeat:none;
+    background-size:cover;
+}
+
+.text-hover {
+    background: rgba(0, 0, 0, 0.607);
+    opacity:0;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    height: 300px;
+}
+
+.text-hover:hover {
+    opacity:1;
+}
+
+.spatiu-mic {
+    padding: 40px 0px;
+}
+
+.spatiu-super-mic {
+    padding:20px 0px;
+}
+
+.opacitate {
+    opacity: 0;
+}
