@@ -143,3 +143,22 @@ h3 {
 .opacitate {
     opacity: 0;
 }
+
+.main-footer {
+    background-color: rgba(223, 160, 191, 0.648);
+}
+
+.main-footer .logo {
+    color: white;
+    text-decoration: none;
+}
+
+.main-footer .logo img {
+    height: 30px;
+    margin-right: 6px;
+    vertical-align: bottom;
+}
+ 
+.size img {
+    height: 40px;
+}
